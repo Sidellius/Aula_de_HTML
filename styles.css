@@ -1,3 +1,7 @@
+body {
+    background: rgb(104, 148, 168);
+}
+
 h1 {
     color: red;
 }
@@ -8,4 +12,38 @@ h2 {
 
 h3 {
     color: green;
+}
+
+.borda {
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.post_title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post {
+    background: rgb(201, 212, 44);
+    padding: 15px;
+    border: 3px solid black;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.imagem {
+    border: 2px solid black;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.post_contant {
+    margin: 0;
+    margin-bottom: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
 }
